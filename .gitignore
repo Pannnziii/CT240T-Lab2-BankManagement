@@ -1,3 +1,30 @@
-out/
-.idea/workspace.xml
+# Tệp biên dịch Java
 *.class
+*.jar
+*.war
+
+# Thư mục đầu ra của IDE
+bin/
+out/
+target/
+build/
+
+# Cấu hình IDE
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Tệp hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Tài liệu và file phụ không thuộc bài nộp
+*.docx
+~$*
+draw_cdm.js
+
+# Biến môi trường / thông tin nhạy cảm
+.env
+*.jpg
